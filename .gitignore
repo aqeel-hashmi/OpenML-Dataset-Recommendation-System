@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+wandb/
+outputs/models/*.npy
+.DS_Store
+.ipynb_checkpoints/

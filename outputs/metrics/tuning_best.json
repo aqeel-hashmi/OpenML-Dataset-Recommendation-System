@@ -1,0 +1,16 @@
+{
+  "best_value": 0.696,
+  "best_params": {
+    "ngram_range": [
+      1,
+      2
+    ],
+    "max_features": 10000,
+    "min_df": 5,
+    "max_df": 0.9134993323481632,
+    "sublinear_tf": true,
+    "svd_components": 100
+  },
+  "n_trials": 25
+}
+

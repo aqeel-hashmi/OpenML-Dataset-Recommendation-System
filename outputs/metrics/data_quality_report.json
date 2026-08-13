@@ -1,0 +1,76 @@
+{
+  "completeness": {
+    "dataset_id": 1.0,
+    "name": 0.9997,
+    "description": 0.9586,
+    "format": 1.0,
+    "url": 1.0,
+    "upload_date": 1.0,
+    "default_target_attribute": 0.7979,
+    "creator": 0.6213,
+    "tags": 0.4448
+  },
+  "uniqueness": {
+    "n_records": 6408,
+    "duplicate_dataset_ids": 0,
+    "records_sharing_md5": 720,
+    "duplicate_name_version_pairs": 1,
+    "unique_names": 5002,
+    "dataset_id_uniqueness_rate": 1.0
+  },
+  "validity": {
+    "md5_valid_rate": 1.0,
+    "url_valid_rate": 1.0,
+    "version_positive_rate": 1.0,
+    "upload_date_plausible_rate": 1.0
+  },
+  "consistency": {
+    "raw_format_variants": 4,
+    "raw_format_distribution": {
+      "arff": 3366,
+      "ARFF": 1893,
+      "Sparse_ARFF": 1148,
+      "sparse_arff": 1
+    },
+    "normalised_format_variants": 2,
+    "normalised_format_distribution": {
+      "arff": 5259,
+      "sparse_arff": 1149
+    }
+  },
+  "conformity": {
+    "tags_parse_rate": 1.0,
+    "avg_tags_when_present": 6.1,
+    "tagged_fraction": 0.4448
+  },
+  "timeliness": {
+    "earliest_upload": "2014-04-06",
+    "latest_upload": "2026-05-13",
+    "median_upload_year": 2020
+  },
+  "composite_score": 0.9673,
+  "dimension_scores": {
+    "completeness": 0.8691,
+    "validity": 1.0,
+    "uniqueness": 1.0,
+    "conformity": 1.0
+  },
+  "remediation": {
+    "dropped_missing_id": 0,
+    "dropped_duplicate_ids": 0,
+    "dropped_low_text": 50,
+    "final_rows": 6358,
+    "initial_rows": 6408
+  },
+  "post_clean_completeness": {
+    "dataset_id": 1.0,
+    "name": 0.9997,
+    "description": 0.9594,
+    "format": 1.0,
+    "url": 1.0,
+    "upload_date": 1.0,
+    "default_target_attribute": 0.8036,
+    "creator": 0.6258,
+    "tags": 0.4476
+  }
+}

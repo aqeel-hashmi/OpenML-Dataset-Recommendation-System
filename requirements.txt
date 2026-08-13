@@ -1,0 +1,27 @@
+# Dataset
+openml
+
+# Core data science
+numpy
+pandas
+scipy
+scikit-learn
+
+# Embeddings
+sentence-transformers
+torch
+
+# Experiment tracking & tuning
+wandb
+optuna
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Frontend
+streamlit
+
+# Text processing
+nltk
